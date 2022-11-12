@@ -1,4 +1,36 @@
-#body1{
-    background-image:url("GettyImages-1314656208.webp");
-}
+#ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #483D8B;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+  }
 
+
+
+#body1{
+    background-image:url("GettyImages-1314656208.jpg");
+}
+	
+#tekst1{
+  color: White;
+  border-radius: 25px;
+  background: #483D8B;
+  border-style: inset;
+  width: 500px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-left: 50px;
+  margin: 300px;
