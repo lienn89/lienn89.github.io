@@ -22,7 +22,7 @@
   
   
   #body1{
-      background-image:url("GettyImages-1314656208.jpg");
+      background-image:url("GettyImages-1314656208.webp");
   }
     
   #tekst1{
@@ -57,3 +57,4 @@
     float: left;
     width: 100%;
     text-align: center;
+  }
