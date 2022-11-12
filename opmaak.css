@@ -25,6 +25,7 @@
 }
 	
 #tekst1{
+  font-family: Lucida Console, Monospace;
   color: White;
   border-radius: 25px;
   background: #483D8B;
@@ -34,3 +35,10 @@
   padding-top: 100px;
   padding-left: 50px;
   margin: 300px;
+}
+
+h1{
+  font-family: Lucida Console, Monospace;
+  color: White;
+  font-size: 20px;
+}
