@@ -1,4 +1,4 @@
-.ul1 {
+#ul1 {
   border-style: inset;
       list-style-type: none;
       margin: 0;
@@ -22,7 +22,7 @@
   
   
   #body1{
-      background-image:url("GettyImages-1314656208.webp");
+      background-image:url("GettyImages-1314656208.jpg");
   }
     
   #tekst1{
@@ -48,8 +48,8 @@
   #imghtml {
     border-radius: 25px;
     float: right;
-    margin-right: 250px;
-    margin-top: 150px;  
+    margin-right: 330px;
+    margin-top: 160px;  
   }
   
   footer{
@@ -58,4 +58,30 @@
     float: left;
     width: 100%;
     text-align: center;
+  }
+  
+  
+  .inhoud {
+    display: none;
+    position: absolute;
+    background-color: #483D8B;
+    min-width: 160px;
+  }
+  
+  .inhoud a {
+    color: White;
+    padding: 10px 14px;
+    display: block;
+  }
+  
+  .inhoud a:hover {
+    background-color: #3f3579
+  }
+  
+  .dropdown:hover .inhoud {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3f3579;
   }

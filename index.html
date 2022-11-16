@@ -1,29 +1,35 @@
 <DOCTYPE html> <!--dit is de homepage van mijn site-->
     <html> <!--dit is het html-element-->
         <head>
-            <title>Informatica</title>
+            <title>3 lagen model</title>
             <link rel="stylesheet" href="opmaak.css">
             <meta charset="utf-8">
         </head>
         <body id=body1>
     
-            <ul class="ul1">
+            <ul id="ul1">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="binairstelsel.html">3 lagen model</a></li>
-                <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
-                <li><a href="cpu.html">Cpu</a></li>
-                <li><a href="Programmeertalen.html">Programmeertalen</a></li>
+                <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">3 lagen model</a>
+                  <div class="inhoud">
+                        <a href="toepassingen laag.html">Toepassingen laag</a>
+                         <a href="logische laag.html">Logische laag</a>
+                         <a href="fysieke laag.html">Fysieke laag</a>
+                  </div>
+                </li>
+                <li><a href="kleurmodellen.html">kleurmodellen</a></li>
+                <li><a href="cpu.html">cpu</a></li>
             </ul>
         
-            <img id=imghtml src="code.jpg" alt="code" width=500px height=200px class="pic-right">
+            <img id=imghtml src="code.jpg" alt="code" width=700px height=500px class="pic-right">
     
             <div id=tekst1> 
                     <h1>Wat is informatica?</h1>
-                    <p>Informatica is eigelijk het verwerken van informatie in een computer. Het word ook wel ICT (Informatie- en Communicatietechnologie) genoemd. 
-                       Programmeren doe je vaak met een programmeertaal. Enkele bekende programmeertalen zijn Elixir Python en Javascript. 
-                       Programmeer talen gebruik je om opdrachten te beschrijven die de computer moet uitvoeren. Deze site is bijvoorbeeld gemaakt met de programmeertaal html.
-                       <br><br>
-                       Hiernaast afbeelding van Elixir code. -->   
+                    <p>Informatica is eigelijk het verwerken van informatie in een computer. 
+                        Het word ook wel ICT (Informatie- en Communicatietechnologie) genoemd. Programmeren doe je vaak met een programmeertaal. 
+                        Enkele bekende programmeertalen zijn Java Python en Javascript. 
+                        Programmeer talen gebruik je om opdrachten te beschrijven die de computer moet uitvoeren. 
+                        Deze site is bijvoorbeeld gemaakt met de programmeertaal html. 
                     </p>
     
              </div> 
@@ -31,7 +37,7 @@
         <br>
     
         <footer>
-                <p> Lina Chih & Siemen van der Weegen <br> Siemen.van.der.Weegen@vlietlandcollege.nl <br> Lina.Chih@vlietlandcollege.nl </p>
+                <p> Lina Chih & Siemen van der Waard <br> Siemen.van.der.Waard@vlietlandcollege.nl <br> Lina.Chih@vlietlandcollege.nl </p>
             </footer>
     
         </body>
