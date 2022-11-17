@@ -82,6 +82,7 @@
     position: relative;
     max-width: 100%; /* Maximum width */
     margin: 0 auto; /* Center it */
+    z-index: -1;
   }
   
   .kleur .content {
