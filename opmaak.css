@@ -10,7 +10,7 @@
     li {float: left;}
     
     li a {
-      display: block;
+      display: block; /* zorgt voor menu in blok vorm*/
       color: white;
       text-align: center;
       padding: 18px 18px;
@@ -24,34 +24,34 @@
 /*achtergrond plaatje voor de homepage*/
 
   #tekst1{
-    font-family: Lucida Console, Monospace;
+    font-family: Lucida, Monospace;
     color: White;
-    border-radius: 25px;
+    border-radius: 25px; /*maakt de afbeelding rond*/
     background: #483D8B;
-    border-style: inset;
-    width: 500px;
+    border-style: inset; /*De border om de tekst heen*/
+    width: 500px; /*aanpassingen voor de breedte*/
     padding-bottom: 100px;
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 40px;
-    margin: 100px;
+    margin: 100px; /*aanpassingen voor de grootte*/
   }
 
 /*Dit is de opmaak voor de tekst op de homepage*/
 
   h1{
-    font-family: Lucida Console, Monospace;
+    font-family: Lucida, Monospace;
     color: White;
-    font-size: 20px;
+    font-size: 20px; /*grootte van de tekst*/
   }
   
 /*Dit is de opmaak van de titel "Wat is informatica?*/
 
   #imghtml {
     border-radius: 25px;
-    float: right;
-    margin-right: 116px;
-    margin-top: 155px;  
+    float: right; /*het plaatje begint aan de rechter kant*/
+    margin-right: 116px; /*positie voor het plaatje*/
+    margin-top: 155px;  /*positie voor het plaatje*/
   }
   
 /*De opmaak en plaats van de afbeelding voor de homepage*/
@@ -61,7 +61,7 @@
     background-color: #483D8B;
     float: left;
     width: 100%;
-    text-align: center;
+    text-align: center; /*tekst begint vanuit het midden*/
   }
   
 /*Dit is de footer*/
@@ -79,27 +79,27 @@
     display: block;
   }
   
-  .inhoud a:hover {background-color: #3f3579}
+  .inhoud a:hover {background-color: #3f3579} /*als je met je muis over 3 lagen gaat word het een andere kleur*/
   
-  .dropdown:hover .inhoud {display: block;}
+  .dropdown:hover .inhoud {display: block;} /*de vorm van de onderwerpen die je uitklapt onder 3 laagen model*/
   
-  .dropdown:hover .dropbtn {background-color: #3f3579;}
+  .dropdown:hover .dropbtn {background-color: #3f3579;} /*als je met je muis over de onderwerpen onder 3 lagen model gaaat word het een andere kleur*/
 
 /*Hierboven staat de code om een uitklap menu te maken*/ 
 
   .kleur {
-    position: relative;
+    position: relative; /* hierdoor kan ik aanpassingen maken aaan de positionering*/
     max-width: 100%; 
     margin: 0 auto; 
-    z-index: -1;
+    z-index: -1; /*hiermee zet ik andere coderingen boven deze*/
   }
   
 /*Dit zorgt voor het plaatje bij kleurmodellen*/
 
   .kleur .content {
-    position: absolute; 
+    position: absolute; /* hiermee zet ik het transparante vlak bovenop mijn img*/
     bottom: 0; 
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5); /*het doorzichtige vlak boven de img vaan kleurmodellen*/
     color: White; 
     font-size: 20px;
     padding-top: 184px;
@@ -149,7 +149,6 @@ h3 {text-align: center;}
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
   }
 
 /*Opmaak voor het knopje met de link naar het filmpje*/
@@ -171,5 +170,7 @@ h3 {text-align: center;}
 
   
   #onderste{
-  margin-top: 10px;
+  margin-top: 10px; /*zodat er plek tussen de afbeeldingen bij cpu komt*/
   }
+
+  /*opmaak voor de cpu afbeeldingen en tekst*/
