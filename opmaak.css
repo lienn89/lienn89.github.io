@@ -33,9 +33,11 @@
     padding-bottom: 100px;
     padding-top: 100px;
     padding-left: 50px;
-    padding-right: 100px;
-    margin: 200px;
+    padding-right: 40px;
+    margin: 100px;
   }
+
+/*Dit is de opmaak voor de tekst op de homepage*/
 
   h1{
     font-family: Lucida Console, Monospace;
@@ -43,14 +45,16 @@
     font-size: 20px;
   }
   
+/*Dit is de opmaak van de titel "Wat is informatica?*/
+
   #imghtml {
     border-radius: 25px;
     float: right;
-    margin-right: 330px;
-    margin-top: 160px;  
+    margin-right: 116px;
+    margin-top: 155px;  
   }
   
-/*de tekst en afbeelding voor de homepage*/
+/*De opmaak en plaats van de afbeelding voor de homepage*/
 
   footer{
     color: White;
@@ -60,7 +64,7 @@
     text-align: center;
   }
   
-/*dit is de footer*/
+/*Dit is de footer*/
 
   .inhoud {
     display: none;
