@@ -102,10 +102,10 @@
     background: rgba(0, 0, 0, 0.5); /*het doorzichtige vlak boven de img vaan kleurmodellen*/
     color: White; 
     font-size: 20px;
-    padding-top: 184px;
-    padding-right: 600px;
-    padding-bottom: 184px;
-    padding-left: 600px; 
+    padding-top: 40px;
+    padding-right: 470px;
+    padding-bottom: 60px;
+    padding-left: 470px; 
   }
   
 /*Dit zorgt voor het doorzichtige vlak bovenop de image van kleurmodellen*/
@@ -128,9 +128,9 @@
     border-radius: 25px;
     background: #483D8B;
     border-style: inset;
-    width: 500px;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    width: 310px;
+    padding-bottom: 70px;
+    padding-top: 70px;
     padding-left: 50px;
     padding-right: 40px;
     margin: 10px;
@@ -159,7 +159,7 @@ h3 {text-align: center;}
     border-radius: 25px;
     background: #483D8B;
     border-style: inset;
-    width: 700px;
+    width: 530px;
     padding-bottom: 100px;
     padding-top: 100px;
     padding-left: 50px;
