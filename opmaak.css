@@ -90,7 +90,7 @@
   .kleur {
     position: relative; /* hierdoor kan ik aanpassingen maken aaan de positionering*/
     max-width: 100%; 
-    margin: 0 auto; 
+    margin: 0 auto; /*hiermee zet ik hem in het midden*/
     z-index: -1; /*hiermee zet ik andere coderingen boven deze*/
   }
   
@@ -176,4 +176,3 @@ h3 {text-align: center;}
 
 
 
-  
