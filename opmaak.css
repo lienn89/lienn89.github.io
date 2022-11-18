@@ -7,7 +7,7 @@
       background-color: #483D8B;
     }
     
-    li {float: left;}
+    li {float: left;} /*zorgt ervoor dat het menu aaan de linker kant begint*/
     
     li a {
       display: block; /* zorgt voor menu in blok vorm*/
@@ -167,10 +167,13 @@ h3 {text-align: center;}
     float: right; 
   }
   
-
-  
   #onderste{
   margin-top: 10px; /*zodat er plek tussen de afbeeldingen bij cpu komt*/
   }
 
   /*opmaak voor de cpu afbeeldingen en tekst*/
+
+
+
+
+  
