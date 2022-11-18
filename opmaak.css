@@ -136,10 +136,12 @@
     margin: 10px;
     float: left;
   }
-  
 
+/*De opmaak voor de kolommen*/ 
 
-  h3 {text-align: center;}
+h3 {text-align: center;}
+
+/*De opmaak voor de kopjes van de kolommen*/
 
   a:link, a:visited {
     background-color: #483D8B;
@@ -149,6 +151,8 @@
     text-decoration: none;
     display: inline-block;
   }
+
+/*Opmaak voor het knopje met de link naar het filmpje*/
 
   .tekst3{
     font-family: Verdana, sans-serif;
@@ -163,6 +167,8 @@
     padding-right: 40px;
     float: right; 
   }
+  
+
   
   #onderste{
   margin-top: 10px;
